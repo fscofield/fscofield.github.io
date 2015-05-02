@@ -15,6 +15,21 @@
 			font-family: 'Open Sans', sans-serif;
 			font-weight: 200;
 		}
+		h4 {
+			font-family: 'Open Sans';
+		}
+
+		hr {
+			display: block;
+			height: 1px;
+			border: 0;
+			border-top: 1px solid #E4E4E4;
+			margin: 1em 0;
+			padding: 0;
+			width: 150px;
+			margin: 0 auto;
+			margin-top: 20px;
+		}
 
 		.center {
 			margin: 0 auto;
@@ -52,6 +67,29 @@
 
 		.center a:hover {
 			color: red;
+		}
+
+		.center ul.projects {
+			width: 500px;
+			margin: 0 auto;
+		}
+
+		.projects li {
+			width: 25%;
+			float: left;
+		}
+
+		.projects h6 {
+			font-size: 11px;
+			margin-top: 10px;
+		}
+
+		.img-wrap {
+			border-radius: 100%;
+			overflow: hidden;
+			height: 75px;
+			width: 75px;
+			margin: 0 auto;
 		}
 
 		@media (max-width: 600px) {
@@ -101,7 +139,28 @@
 				<a href="/resume.html">résumé</a>
 			</li>
 		</ul>
+		<ul class="projects cf">
+			<hr>
+			<div style="margin: 20px 0px;">Projects</div>
+			<li>
+				<a href="http://github.com/cbinsights/d3.blueprint">
+					<div class="img-wrap">
+						<img style="width: 165%;" src="bars.png">
+					</div>
+					<h6>D3 Blueprint</h6>
+				</a>
+			</li>
+			<li>
+				<a href="/font-selector">
+					<div class="img-wrap">
+						<img style="width: 165%;" src="font-selector.png">
+					</div>
+					<h6>Font Selector</h6>
+				</a>
+			</li>
+		</ul>
 	</div>
+
 
 
 </body>
